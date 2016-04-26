@@ -15,6 +15,7 @@
 		471119BA1CCF4D6900305ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471119B81CCF4D6900305ECB /* LaunchScreen.storyboard */; };
 		471119C51CCF4D6900305ECB /* LearngitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471119C41CCF4D6900305ECB /* LearngitTests.m */; };
 		471119D01CCF4D6900305ECB /* LearngitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471119CF1CCF4D6900305ECB /* LearngitUITests.m */; };
+		471119DF1CCF61FA00305ECB /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471119DE1CCF61FA00305ECB /* LogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		471119CB1CCF4D6900305ECB /* LearngitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearngitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		471119CF1CCF4D6900305ECB /* LearngitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearngitUITests.m; sourceTree = "<group>"; };
 		471119D11CCF4D6900305ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471119DD1CCF61FA00305ECB /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		471119DE1CCF61FA00305ECB /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				471119AE1CCF4D6900305ECB /* AppDelegate.m */,
 				471119B01CCF4D6900305ECB /* ViewController.h */,
 				471119B11CCF4D6900305ECB /* ViewController.m */,
+				471119DD1CCF61FA00305ECB /* LogViewController.h */,
+				471119DE1CCF61FA00305ECB /* LogViewController.m */,
 				471119B31CCF4D6900305ECB /* Main.storyboard */,
 				471119B61CCF4D6900305ECB /* Assets.xcassets */,
 				471119B81CCF4D6900305ECB /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				471119B21CCF4D6900305ECB /* ViewController.m in Sources */,
 				471119AF1CCF4D6900305ECB /* AppDelegate.m in Sources */,
 				471119AC1CCF4D6900305ECB /* main.m in Sources */,
+				471119DF1CCF61FA00305ECB /* LogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				471119D61CCF4D6900305ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471119D71CCF4D6900305ECB /* Build configuration list for PBXNativeTarget "LearngitTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				471119D91CCF4D6900305ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471119DA1CCF4D6900305ECB /* Build configuration list for PBXNativeTarget "LearngitUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				471119DC1CCF4D6900305ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
