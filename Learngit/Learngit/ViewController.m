@@ -9,7 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+
 @property (nonatomic, strong)NSMutableArray *arr;
+@property (nonatomic, strong)NSString *name1;
 @property (nonatomic, strong)NSString *name;
 @end
 
@@ -19,8 +21,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     _arr = [[NSMutableArray alloc] init];
+    _name1 = @"小张";
     _name = @"小明";
     NSLog(@"%@",_name);
+    NSLog(@"%@",_name1);
 }
 
 - (void)didReceiveMemoryWarning {
